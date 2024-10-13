@@ -1,0 +1,112 @@
+body {
+
+  background-color: rgb(241, 241, 241);
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+@media only screen and (max-width: 480px)
+/* responsive */
+
+
+  {
+  #img-header display: none;
+}
+
+.w-50 {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles pour tablettes */
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* Styles pour ordinateurs portables */
+}
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;   /* bordure des cadres */
+  margin: 0%;
+  padding: 0%;
+}
+
+
+p {
+  color: whk;
+  text-align: center;
+  /* centrer le texte */
+}
+
+*/ img {
+
+  size: 300px;
+}
+
+
+.frame {
+  width: 350px;
+  height: 350px;
+  border: 3px solid #000000;
+  background: #000000;
+  margin: auto;
+  padding: 15px 25px;
+  /* cadres */
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  background: left / cover url('https://mentorshow.com/wp-content/uploads/2024/03/signification-couleur-noir.png');
+  /* bannière */
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  font:
+    bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
+    fantasy;
+  color: #f0f0f0;
+
+}
+
+
+img {
+  display: block;
+  width: 300px;
+  /* taille des images */
+  margin: auto;
+}
+
+
+h1 {
+  font-size: 10vw;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+
+
+
+footer {                  /*  footer */
+  flex-shrink: 0;
+  border-top: 1px dashed #000;
+  width: 100%;
+  background: #ffff;
+  
+}
+
+
